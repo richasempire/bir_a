@@ -25,18 +25,52 @@ An interactive birthday experience that creates a personalized journey with AI-g
 
 ### Prerequisites
 - OpenAI API key ([Get one here](https://platform.openai.com/api-keys))
+- Vercel account (for deployment)
 
-### Installation
+### Deployment to Vercel
 
-1. Clone this repository:
+1. **Fork or clone this repository**
+
+2. **Import to Vercel:**
+   - Go to [vercel.com](https://vercel.com)
+   - Click "Import Project"
+   - Select your repository
+
+3. **Add Environment Variable:**
+   - In Vercel project settings → Environment Variables
+   - Add: `OPENAI_API_KEY` = `your-api-key-here`
+   - Click "Save"
+
+4. **Deploy!**
+   - Vercel will automatically deploy your project
+   - Your API key stays secure on the server
+
+### Local Development
+
+To test locally:
+
+1. Clone the repository:
 ```bash
 git clone https://github.com/richasempire/bir_a.git
 cd bir_a
 ```
 
-2. The API key is already configured in the code
+2. Install Vercel CLI:
+```bash
+npm i -g vercel
+```
 
-3. Open `index.html` in your browser and enjoy!
+3. Create `.env` file:
+```bash
+echo "OPENAI_API_KEY=your-api-key-here" > .env
+```
+
+4. Run locally:
+```bash
+vercel dev
+```
+
+5. Open http://localhost:3000 in your browser
 
 ## ⚠️ Important Security Note
 

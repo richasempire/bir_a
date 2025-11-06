@@ -6,3 +6,8 @@ Thumbs.db
 *.bak
 *~
 
+# Ignore environment variables
+.env
+.env.local
+.vercel
+
