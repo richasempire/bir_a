@@ -1,0 +1,10 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore any backup files
+*.bak
+*~
+
+# Note: Remember to remove your API key before committing to public repo
+
