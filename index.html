@@ -553,6 +553,10 @@
                     <p style="margin-top: 15px; font-size: 1.3em;">🎉 Happy Birthday, Apporv! 🎉</p>
                 </div>
                 
+                <div style="text-align: center; margin: 30px 0;">
+                    <img src="hello.jpeg" alt="Apporv" style="max-width: 300px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                </div>
+                
                 <div class="image-section">
                     <button class="generate-image-btn" onclick="generateImage()">
                         🎨 Generate Image of Apporv's Journey!
@@ -564,15 +568,9 @@
         </div>
     </div>
 
-    <!-- Load API key configuration (ignored by git) -->
-    <script src="config.js"></script>
-    
     <script>
-        // 🔑 API Key loaded from config.js
-        // Fallback if config.js is not present
-        if (typeof OPENAI_API_KEY === 'undefined') {
-            var OPENAI_API_KEY = 'sk-YOUR-API-KEY-HERE';
-        }
+        // 🔑 Your OpenAI API Key (keep this secure!)
+        const OPENAI_API_KEY = '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';
         
         const choices = {
             terrain: null,
