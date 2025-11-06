@@ -30,14 +30,11 @@ An interactive birthday experience that creates a personalized journey with AI-g
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/birthday-trail.git
-cd birthday-trail
+git clone https://github.com/richasempire/bir_a.git
+cd bir_a
 ```
 
-2. Open `index.html` and add your OpenAI API key:
-```javascript
-const OPENAI_API_KEY = 'sk-your-api-key-here';
-```
+2. The API key is already configured in the code
 
 3. Open `index.html` in your browser and enjoy!
 
