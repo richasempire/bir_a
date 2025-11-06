@@ -570,7 +570,7 @@
 
     <script>
         // 🔑 Your OpenAI API Key (keep this secure!)
-        const OPENAI_API_KEY = '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';
+        const OPENAI_API_KEY = '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';
         
         const choices = {
             terrain: null,
@@ -637,7 +637,7 @@
                 setTimeout(() => nextWaypoint(step), 400);
             }
         }
-//llalla
+
         function showSummit() {
             const waypoint = document.querySelector('[data-step="6"]');
             waypoint.querySelector('.choices').style.display = 'none';
@@ -757,7 +757,7 @@
                 'riding on a fast speedboat cutting through water' : 
                 'standing on a beautiful bridge crossing over water';
 
-            const prompt = `A joyful adventurous young man on an epic birthday journey in a ${terrainDesc}. The scene shows ${weatherDesc}. He is ${buddyDesc}, and ${snackDesc}. The setting includes ${pathDesc}. Digital art style, vibrant colors, celebratory mood, detailed and whimsical illustration with a sense of adventure and fun. The man should look happy and confident.`;
+            const prompt = `A joyful adventurous young man with a beard and wearing glasses on an epic birthday journey in a ${terrainDesc}. The scene shows ${weatherDesc}. He is ${buddyDesc}, and ${snackDesc}. The setting includes ${pathDesc}. Digital art style, vibrant colors, celebratory mood, detailed and whimsical illustration with a sense of adventure and fun. The man should look happy and confident, with a full beard and stylish glasses.`;
 
             return prompt;
         }
